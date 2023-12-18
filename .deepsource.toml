@@ -68,7 +68,7 @@ name = "sql"
 name = "java"
 
   [analyzers.meta]
-  runtime_version = "19"
+  runtime_version = "11"
 
 [[analyzers]]
 name = "javascript"
@@ -85,11 +85,11 @@ name = "javascript"
   environment = [
     "nodejs",
     "jquery",
-    "mongo",
-    "browser",
     "jest",
-    "vitest",
+    "browser",
+    "mongo",
+    "cypress",
     "mocha",
-    "jasmine",
-    "cypress"
+    "vitest",
+    "jasmine"
   ]
